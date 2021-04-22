@@ -10,6 +10,7 @@ int minDistance(int dist[], bool sptSet[]);
 void printSolution(int dist[]);
 void dijkstraPointer(int **graph, int src, int destination, int flag, int vertxMax);
 void write_pathPointer(int **graph, int src, int destination, NODE* vertexList, int savedDestination, int savedSource);
+/*This method is used to deal with adjacency lists being added incorrectly*/
 void findPointer(int **graph, int src, int destination, int flag, int vertxMax);
 
 #endif

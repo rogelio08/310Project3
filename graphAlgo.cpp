@@ -7,6 +7,7 @@
 
 const int V = 9;
 
+/*This method helps with the dij algorithm*/
 int minDistance(int dist[], bool sptSet[])
 {
     /* Initialize min value*/

@@ -20,8 +20,6 @@ void nextCommandFind(char str[30], int* source, int* destination, int* flag) {
 	char inputDestination[] = { str[7], str[8], str[9] };
 	if (str[7] == '1') {
 		*destination = 100;
-	//	char inputFlag[] = { str[10], str[11] };
-	//	int fl = atoi(inputFlag);
 		if(str[10] == '1' || str[11] == '1'){
 			*flag = 1;
 		}
